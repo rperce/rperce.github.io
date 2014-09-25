@@ -749,7 +749,7 @@ section {
 section #title {
   border: 0;
   outline: none;
-  margin: 0 0 50px 0;
+  margin: 0 0 20px 0;
   padding: 0 0 5px 0;
 }
 section #title h1 {
@@ -779,36 +779,36 @@ section .credits.left {
 section .credits.right {
   float: right;
 }
-.centerer {
-    float:left;
-    position: relative;
-    left: 50%;
-}
-.centerer > :first-child {
-    float:left;
+.float-centered {
+    float: right;
     position: relative;
     left: -50%;
+}
+.float-centered > :first-child {
+    left: 50%;
+    position: relative;
 }
 #embed_calendar {
     float left;
     border: 10px solid #525252;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 
 
 @media print, screen and (max-width: 720px) {
-  #title .credits {
+  .credits {
     display: block;
     width: 100%;
     line-height: 30px;
     text-align: center;
   }
-  #title .credits .left {
+  .credits .left {
     float: none;
     display: block;
   }
-  #title .credits .right {
+  .credits .right {
     float: none;
     display: block;
   }
