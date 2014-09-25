@@ -1,4 +1,4 @@
-permalink: /blog/:categories/:year/:month:/:day/:title.html
+permalink: /blog/:categories/:title.html
 defaults:
     -
         scope:

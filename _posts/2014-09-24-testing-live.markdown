@@ -1,10 +1,6 @@
 ---
-layout: post
 title: Testing
 ---
-
-Testing
-=======
 
 This is an automated test of the Jekyll blog system. Please do not be alarmed.
 
