@@ -1,0 +1,13 @@
+permalink: /blog/:categories/:year/:month:/:day/:title.html
+defaults:
+    -
+        scope:
+            path: ""
+            type: "pages"
+        values:
+            layout: default
+            links:
+                Home: /
+                Schedule: /schedule/
+                Blog: /blog/
+

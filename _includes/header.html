@@ -1,0 +1,6 @@
+<div id="header"><nav>
+    {% for link in page.links %}
+    <li><a href="{{ link[1] }}" {% if page.title == link[0] %}class="current"{% endif %}>{{ link[0] }}</a></li>
+    {% endfor %}
+</nav></div>
+
