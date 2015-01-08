@@ -6,9 +6,20 @@ defaults:
         values:
             layout: default
             links:
-                Home: /
-                Schedule: /schedule/
-                Projects: /projects/
-                Hobbies: /hobbies/
-                Blog: /blog/
+                - title: Home
+                  ref: /
+                  color: '#f44336'
+                - title: Schedule
+                  ref: /schedule/
+                  color: '#03a9f4'
+                - title: Projects
+                  ref: /projects/
+                  color: '#4caf50'
+                - title: Blog
+                  ref: /blog/
+                  color: '#ff5722'
+
+sass:
+    style: compressed
+    sass-dir: _sass
 

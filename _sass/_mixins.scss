@@ -1,0 +1,31 @@
+@mixin linear-gradient($from, $to) {
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, $from), color-stop(100%, $to));
+    background: -webkit-linear-gradient($from, $to);
+    background: -moz-linear-gradient($from, $to);
+    background: -o-linear-gradient($from, $to);
+    background: -ms-linear-gradient($from, $to);
+    background: linear-gradient($from, $to);
+}
+
+@mixin border-radius($px) {
+    -moz-border-radius: $px;
+    -webkit-border-radius: $px;
+    -o-border-radius: $px;
+    -ms-border-radius: $px;
+    -khtml-border-radius: $px;
+    border-radius: $px;
+}
+
+@mixin box-shadow($shadow) {
+    -moz-box-shadow: $shadow;
+    -webkit-box-shadow: $shadow;
+    -o-box-shadow: $shadow;
+    box-shadow: $shadow;
+}
+
+@mixin box-shadow-2($shadow, $shadow2) {
+    -moz-box-shadow: $shadow, $shadow2;
+    -webkit-box-shadow: $shadow, $shadow2;
+    -o-box-shadow: $shadow, $shadow2;
+    box-shadow: $shadow, $shadow2;
+}

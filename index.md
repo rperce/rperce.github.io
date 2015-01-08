@@ -5,10 +5,17 @@ h1: Robert Perce
 {% include h3.html title="Introduction" %}
 
 I'm an Honors Computer Science and Mathematics major at the University of Texas at Austin.
-I also do archery, fencing, and juggling. I read a lot of books, play a lot of video
-games, and do a lot of programming. See my [Projects](projects/) page for my public code
-or my [Hobbies](blog/hobbies) page for more about my free time, or read on for my resume.
+I also do archery, fencing, and juggling. I read a lot of books and do a lot of
+programming. See my [Projects](projects/) page for my public code or read on for my
+resume.
 
+<table><tr style="border-bottom: none;" align="center">
+    <td class="mid"><a href="#education">Education</a></td>
+    <td class="mid"><a href="#experience">Experience</a></td>
+    <td class="mid"><a href="#languages-and-environments">Languages</a></td>
+    <td class="mid"><a href="#awards">Awards</a></td>
+    <td class="last"><a href="#interests">Interests</a></td>
+</tr></table>
 
 {% include h3.html title="Education" %}
 
@@ -46,16 +53,40 @@ was in JavaScript with a bit of [Ruby on Rails](http://rubyonrails.org).
 
 {% include h3.html title="Languages and Environments" %}
 
-**Fluent**: Java.
-**Comfortable**: Ruby, Bash, Lua, LaTeX, JavaScript, CSS3, HTML5, C
-**Basic Experience**: C++, Python, Haskell, Lisp, x86 Assembly, Clojure
+**Fluent**: Java<br />
+**Comfortable**: Ruby, Bash, Lua, LaTeX, JavaScript, CSS3, HTML5, C<br />
+**Basic Experience**: C++, Python, Haskell, Lisp, x86 Assembly, Clojure<br />
+Very comfortable with GNU/Linux system, Eclipse, vim, and git.
 
 More in-depth, in Java I rarely have to consult documentation or a syntax cheat-sheet to
 produce the code I want. For the "Comfortable" languages, I prefer to have a syntax and
-common features cheat-sheet ("Wait, does `==` do pattern matching in bash under `[[ ]]` or
-`[ ]`? Does Ruby use `.find()` or `.index()` for array lookup?") and sometimes have to
-consult documentation for function or compiler behavior. For the "Basic Experience"
+common features cheat-sheet ("Wait, does `==` work with pattern matching in bash under `[[
+]]` or `[ ]`? Does Ruby use `.find()` or `.index()` for array lookup?") and sometimes have
+to consult documentation for function or compiler behavior. For the "Basic Experience"
 languages, I either need a cheat-sheet or a lot of Googling, and often need to consult
 documentation---but can do and have done projects in those languages.
 
 
+{% include h3.html title="Awards" %}
+
+In 2013, I was awarded the Parrish Computer Science Scholarship, awarded by [Don
+Parrish](http://donparrish.com/ParrishCSScholarship.html) "each year to an outstanding
+[incoming freshman] in the Turing Scholars Program". Also that year I received the
+National AP Scholar award, "granted to students in the United States who receive an
+average score of at least 4 on all AP Exams taken, and scores of 4 or higher on eight or
+more".
+
+In terms of programming competitions during high school, I attended HP Code Wars in 2010,
+2011, and 2012; Trinity Programming Competition in 2010 and 2012; and UIL Computer Science
+in 2010, 2011, and 2012. I was team captain at all of the above. This culminated in 2013,
+receiving 11<sup>th</sup> place at UIL State Computer Science, after receiving
+1<sup>st</sup> at Region and 3<sup>rd</sup> at District.
+
+
+{% include h3.html title="Interests" %}
+
+**Professional**:<br />
+Software architecture, mathematical programming, genetic algorithms, sysadmin/dev-ops work
+
+**Personal**:<br />
+Juggling, archery, books, fountain pens, videogames, coding, learning
