@@ -31,8 +31,8 @@ At UT, my Computer Science classes thus far include:
 - Honors Computer Structures and Architecture
 - Honors Data Structres (Java)
 
-I went to high school from 10<sup>th</sup> grade on at Sandra Day O'Connor in San Antonio,
-and my freshman year at Kadena High School on Kadena Air Force Base in Okinawa, Japan.
+In-depth information about education, and including high school and earlier can be found
+on [this](education.html) page.
 
 
 {% include h3.html title="Experience" %}
