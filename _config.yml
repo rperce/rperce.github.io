@@ -8,7 +8,7 @@ defaults:
             links:
                 - title: Home
                   ref: /
-                  color: '#f44336'
+                  color: '#e53935'
                 - title: Resume
                   ref: /resume/
                   color: '#bf5700'
