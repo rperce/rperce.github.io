@@ -9,6 +9,9 @@ defaults:
                 - title: Home
                   ref: /
                   color: '#f44336'
+                - title: Resume
+                  ref: /resume/
+                  color: '#bf5700'
                 - title: Schedule
                   ref: /schedule/
                   color: '#03a9f4'
@@ -17,7 +20,7 @@ defaults:
                   color: '#4caf50'
                 - title: Blog
                   ref: /blog/
-                  color: '#ff5722'
+                  color: '#ffeb3b'
 
 sass:
     style: compressed
