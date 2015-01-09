@@ -58,14 +58,6 @@ was in JavaScript with a bit of [Ruby on Rails](http://rubyonrails.org).
 **Basic Experience**: C++, Python, Haskell, Lisp, x86 Assembly, Clojure<br />
 Very comfortable with GNU/Linux system, Eclipse, vim, and git.
 
-More in-depth, in Java I rarely have to consult documentation or a syntax cheat-sheet to
-produce the code I want. For the "Comfortable" languages, I prefer to have a syntax and
-common features cheat-sheet ("Wait, does `==` work with pattern matching in bash under `[[
-]]` or `[ ]`? Does Ruby use `.find()` or `.index()` for array lookup?") and sometimes have
-to consult documentation for function or compiler behavior. For the "Basic Experience"
-languages, I either need a cheat-sheet or a lot of Googling, and often need to consult
-documentation---but can do and have done projects in those languages.
-
 
 {% include h3.html title="Awards" %}
 
