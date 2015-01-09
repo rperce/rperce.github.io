@@ -27,7 +27,7 @@ At UT, my Computer Science classes thus far include:
 - Honors Data Structres (Java)
 
 In-depth information about education, and including high school and earlier can be found
-on [this](education/) page.
+on [this](../education/) page.
 
 
 {% include h3.html title="Experience" %}
