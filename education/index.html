@@ -22,14 +22,14 @@ semesters:
 ---
 
 <table>
-{% assign row = true %}
+{% assign row = 1 %}
 {% for semester in page.semesters %}
-{% if row %}<tr>{% endif %}<td>
+{% if row == 1%}<tr>{% endif %}<td>
 {% include h3.html title=semester.where %}
 {{ semester.subtext }}
 {% include classes.html classes=semester.classes %}
-{% assign row = !row %}
-</td>{% if !row %}</tr>{% endif %}
+{% assign row = row | times: -1 %}
+</td>{% unless row == 1%}</tr>{% endunless %}
 {% endfor %}
 <tr><td>
 {% include h3.html title="Spring 2014: UT Austin" %}
