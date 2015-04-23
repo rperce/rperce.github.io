@@ -28,8 +28,8 @@ semesters:
 {% include h3.html title=semester.where %}
 {{ semester.subtext }}
 {% include classes.html classes=semester.classes %}
-</td>{% if !row %}</tr>{% endif %}
 {% assign row = !row %}
+</td>{% if !row %}</tr>{% endif %}
 {% endfor %}
 <tr><td>
 {% include h3.html title="Spring 2014: UT Austin" %}
