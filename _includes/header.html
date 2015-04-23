@@ -1,7 +1,5 @@
 <div id="header" {% for link in page.links %}
-    {% if page.title == link.title %}
-        style="border-bottom: 4px solid {{ link.color }};"
-{% endif %}{% endfor %}><nav>
+    {% if page.title == link.title %}style="border-bottom: 4px solid {{ link.color }};"{% endif %}{% endfor %}><nav>
     {% for link in page.links %}
     <li>
         <a href="{{ link.ref }}"
