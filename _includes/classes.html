@@ -1,5 +1,5 @@
 <ul>{% for classstr in include.classes %}
-{% assign class = classstr | split:"," %}
+{% assign class = classstr | split:", " %}
 <li><b>{{ class[0] }}</b> ({{ class[1] }})<br />
 {{ class[2] }}</li>
 {% endfor %}</ul>
