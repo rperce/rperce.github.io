@@ -26,7 +26,7 @@ semesters:
 {% for semester in page.semesters %}
 {% if row == 1%}<tr>{% endif %}<td>
 {% include h3.html title=semester.where %}
-{{ semester.subtext }}
+{{ semester.subtext }}{{ row }}
 {% include classes.html classes=semester.classes %}
 {% assign row = row | times: -1 %}
 </td>{% unless row == 1%}</tr>{% endunless %}
