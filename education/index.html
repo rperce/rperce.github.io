@@ -7,8 +7,8 @@ h1: Education
 <tr><td>
 {% include h3.html title="Spring 2015: UT Austin" %}
 Currently Enrolled: Semester Four
-{% include classes.html classes=[["CS 109", "Robert Dickerson", "Computer Programming:
-Javascript"]] %}
+{% assign s2015 = "CS 109,Robert Dicerson,Computer Programming: Javascript; CS331H,Vijaya Ramachandran,Algorithms and Complexity: Honors" | split: ";" %}
+{% include classes.html classes=s2015 %}
 <!--ul>
 <li><b>CS 109</b> (Robert Dickerson)<br />
 Computer Brogramming: Javascript</li>
