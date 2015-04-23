@@ -19,6 +19,22 @@ semesters:
             - "CS 439H, Ahmed Gheith, Honors Principles of Computer Systems"
             - "M 328K, Jennifer Mann, Introduction to Number Theory"
             - "M 365C, Luis Caffarelli, Real Analysis I"
+    -
+        where: "Spring 2014: UT Austin"
+        subtext: "Semester Two"
+        classes:
+            - "CC 303, Jamie Aprile, Introduction to Classical Mythology"
+            - "CS 429H, Emmett Witchel, Honors Computer Architecture"
+            - "M 340L, Maria Caputo, Introduction to Linear Algebra"
+            - "M 427K-H, Dan Knopf, Advanced Calculus with Applications I"
+    -
+        where: "Fall 2013: UT Austin"
+        subtext: "Semester One"
+        classes:
+            - "CS 311H, Peter Stone, Discrete Mathematics for CS"
+            - "CS 314H, Calvin Lin, Data Structures"
+            - "M 427L-AP, John Gilbert, Advanced Calculus with Applications II"
+            - "UGS 302, Jason Urban, Print in the Digital Age"
 ---
 
 <table>
@@ -26,37 +42,10 @@ semesters:
 {% for semester in page.semesters %}
 {% if row == 1%}<tr>{% endif %}<td>
 {% include h3.html title=semester.where %}
-{{ semester.subtext }}{{ row }}
+{{ semester.subtext }}
 {% include classes.html classes=semester.classes %}
 </td>{% if row == -1 %}</tr>{% endif %}
 {% assign row = row | times: -1 %}
 {% endfor %}
-<tr><td>
-{% include h3.html title="Spring 2014: UT Austin" %}
-Semester Two
-<ul>
-<li><b>CC 303</b> (Jamie Aprile)<br />
-Introduction to Classical Mythology</li>
-<li><b>CS 429H</b> (Emmett Witchel)<br />
-Honors Computer Architecture</li>
-<li><b>M 340L</b> (Maria Caputo)<br />
-Introduction to Linear Algebra</li>
-<li><b>M 427K-H</b> (Dan Knopf)<br />
-Advanced Calculus with Applications I</li>
-</ul>
-</td><td>
-{% include h3.html title="Fall 2013: UT Austin" %}
-Semester One
-<ul>
-<li><b>CS 311H</b> (Peter Stone)<br />
-Discrete Mathematics for CS</li>
-<li><b>CS 314H</b> (Calvin Lin)<br />
-Data Structures</li>
-<li><b>M 427L-AP</b> (John Gilbert)<br />
-Advanced Calculus with Applications II</li>
-<li><b>UGS 302</b> (Jason Urban)<br />
-Print in the Digital Age</li>
-</ul>
-</td></tr>
 </table>
 
