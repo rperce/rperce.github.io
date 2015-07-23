@@ -1,0 +1,12 @@
+#!/bin/bash
+while IFS= read -r addr; do
+        zip="Austin,TX"
+        json=$(curl -s "https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyD4mfJfckcRUhQoZt7_PFSaJBAPHNauorg&address=$addr")
+        printf "new google.maps.LatLng("
+        echo $json \
+            | jq ".results[0].geometry.location.lat" \
+            | perl -pe 's/\n/, /'
+        echo $json \
+            | jq ".results[0].geometry.location.lng" \
+            | perl -pe 's/\n/),\n/'
+done
