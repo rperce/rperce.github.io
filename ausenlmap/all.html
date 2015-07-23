@@ -11,9 +11,7 @@
     </script>
     <script src="workData.js"></script>
     <script>
-        homeData.forEach(function(latlng) {
-            taxiData.push(latlng);
-        });
+        taxiData = taxiData.concat(homeData);
     </script>
     <script src="map.js"></script>
   </head>
