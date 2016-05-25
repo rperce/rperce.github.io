@@ -14,14 +14,16 @@ h1: Robert Perce
 
 {% include h3.html title="Education" %}
 
-I'm currently a second-year student at UT Austin studying for two degrees: a BS in
+I'm currently a third-year student at UT Austin studying for two degrees: a BS in
 Computer Science in the Turing Scholors honor program and a BS in Mathematics. I'm
-expected to graduate in May 2017, and my current cumulative GPA is 3.2.
+expected to graduate in May 2017, and my current cumulative GPA is 3.16.
 
 At UT, my Computer Science classes thus far include:
 
-- Honors Artifical Intelligence (Currently Enrolled)
-- Honors Algorithms and Complexity (Currently Enrolled)
+- Honors Programming Language Theory
+- Honors Machine Learning and Computer Vision
+- Honors Artifical Intelligence
+- Honors Algorithms and Complexity
 - Honors Operating Systems
 - Honors Computer Structures and Architecture
 - Honors Data Structres (Java)
@@ -32,7 +34,11 @@ on [this](../education/) page.
 
 {% include h3.html title="Experience" %}
 
-I'm slated to intern at Indeed as a sysadmin intern in the summer of 2015.
+I'll be returning to Indeed as, again, a sysadmin intern, for the summer of 2016.
+
+In the summer of 2015 I worked as a sysadmin intern at Indeed in Austin. I improved an
+internal incident reporting tool written in [Perl](https://www.perl.org/) to improve
+sysadmin response time and root cause identification.
 
 In the summer of 2014 I worked as a Software Development Intern at Qualcomm in San Diego.
 I worked on a cross-platform mobile alerts app, deployed through
@@ -46,12 +52,14 @@ the website for the Learn to Be Foundation, an online tutoring nonprofit. Most o
 was in JavaScript with a bit of [Ruby on Rails](http://rubyonrails.org).
 
 
-{% include h3.html title="Languages and Environments" %}
+{% include h3.html title="Languages, Environments" %}
 
 **Fluent**: Java<br />
-**Comfortable**: Ruby, Bash, Lua, LaTeX, JavaScript, CSS3, HTML5, C<br />
+**Comfortable**: Ruby, Bash, Perl, Lua, LaTeX, JavaScript, CSS3, HTML5, C<br />
 **Basic Experience**: C++, Python, Haskell, Lisp, x86 Assembly, Clojure<br />
 Very comfortable with GNU/Linux system, Eclipse, vim, and git.
+Experience with [Meteor](https://www.meteor.com/) and
+[React](https://facebook.github.io/react/).
 
 
 {% include h3.html title="Awards" %}

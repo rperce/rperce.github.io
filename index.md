@@ -6,6 +6,6 @@ h1: Robert Perce
 
 <br />
 I'm studying for a BS in Computer Science in the Turing Scholars Honors Program and a BS
-in Mathematics at UT Austin.  I also do archery, fencing, and juggling. See my
-[Projects](projects/) page for my public code or check out my [resume](resume/).
+in Mathematics at UT Austin. I also like yoga and juggling. See my [Projects](projects/)
+page for my public code or check out my [resume](resume/).
 
