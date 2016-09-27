@@ -14,12 +14,17 @@ h1: Robert Perce
 
 {% include h3.html title="Education" %}
 
-I'm currently a third-year student at UT Austin studying for two degrees: a BS in
+I'm currently a fourth-year student at UT Austin studying for two degrees: a BS in
 Computer Science in the Turing Scholors honor program and a BS in Mathematics. I'm
-expected to graduate in May 2017, and my current cumulative GPA is 3.16.
+expected to graduate in May 2017, and my current cumulative GPA is 3.17.
 
-At UT, my Computer Science classes thus far include:
+At UT, my Computer Science classes thus far include (in reverse chronological order):
 
+- Cryptography
+- Computer Networks
+- Honors Computer Graphics
+- Honors Distributed Systems
+- Competitive Programming
 - Honors Programming Language Theory
 - Honors Machine Learning and Computer Vision
 - Honors Artifical Intelligence
@@ -34,7 +39,13 @@ on [this](../education/) page.
 
 {% include h3.html title="Experience" %}
 
-I'll be returning to Indeed as, again, a sysadmin intern, for the summer of 2016.
+In the summer of 2016 I returned as a sysadmin intern to Indeed in Austin. Keeping with
+the "internal improvements" theme, I wrote a tool and web frontend to manage disk
+thresholds, as well as many small improvements to other internal tools. The web frontend
+was built as a client-side webapp with [React](https://facebook.github.io/react/), using
+[Webpack](https://webpack.github.io/)+[Babel](https://babeljs.io/) for development tools.
+It spoke to a small Perl5 server that handled the interface with the internal
+[MySQL](https://www.mysql.com/) table that stored the threshold and downtime data.
 
 In the summer of 2015 I worked as a sysadmin intern at Indeed in Austin. I improved an
 internal incident reporting tool written in [Perl](https://www.perl.org/) to improve
@@ -52,17 +63,24 @@ the website for the Learn to Be Foundation, an online tutoring nonprofit. Most o
 was in JavaScript with a bit of [Ruby on Rails](http://rubyonrails.org).
 
 
-{% include h3.html title="Languages, Environments" %}
+{% include h3.html title="Languages, Environments, and Technologies" %}
 
-**Fluent**: Java<br />
-**Comfortable**: Ruby, Bash, Perl, Lua, LaTeX, JavaScript, CSS3, HTML5, C<br />
+**Fluent**: Java, vim, git<br />
+**Comfortable**: Ruby, Bash, Perl5, Lua, LaTeX, JavaScript, CSS3, HTML5, C, React, Meteor<br />
 **Basic Experience**: C++, Python, Haskell, Lisp, x86 Assembly, Clojure<br />
-Very comfortable with GNU/Linux system, Eclipse, vim, and git.
-Experience with [Meteor](https://www.meteor.com/) and
-[React](https://facebook.github.io/react/).
+Very comfortable with GNU/Linux systems.
 
 
 {% include h3.html title="Awards" %}
+
+In 2016, I attended many more UT ACM competitions, as well as taking 7th place at UT in
+the Microsoft College Puzzle Challenge, and had my hackathon project at Indeed turned into
+an actual product.
+
+In 2015, I attended many small UT ACM competitions (usually placing between 2nd and 6th
+out of 30 or so attendees), as well as taking 8th place at UT in the Microsoft College
+Puzzle Challenge. My team won 1st place at the Austin Google Games, and my team for the
+Microsoft UT Coding Challenge took 2nd place.
 
 In 2013, I was awarded the Parrish Computer Science Scholarship, awarded by [Don
 Parrish](http://donparrish.com/ParrishCSScholarship.html) "each year to an outstanding
@@ -84,4 +102,4 @@ receiving 11<sup>th</sup> place at UIL State Computer Science, after receiving
 Software architecture, mathematical programming, genetic algorithms, sysadmin/dev-ops work
 
 **Personal**:<br />
-Juggling, archery, books, fountain pens, videogames, coding, learning
+Juggling, archery, books, fountain pens, videogames, yoga, coding, learning
