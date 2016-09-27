@@ -59,15 +59,12 @@ semesters:
             - "UGS 302, Jason Urban, Print in the Digital Age"
 ---
 
-<table>
-{% assign row = 1 %}
-{% for semester in page.semesters %}
-{% if row == 1%}<tr>{% endif %}<td>
-{% include h3.html title=semester.where %}
-{{ semester.subtext }}
-{% include classes.html classes=semester.classes %}
-</td>{% if row == -1 %}</tr>{% endif %}
-{% assign row = row | times: -1 %}
-{% endfor %}
-</table>
-
+<div id='semesters'>
+	{% for semester in page.semesters %}
+		<div class='semester'>
+			{% include h3.html title=semester.where %}
+			{{ semester.subtext }}
+			{% include classes.html classes=semester.classes %}
+		</div>
+	{% endfor %}
+</div>

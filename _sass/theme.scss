@@ -1,3 +1,4 @@
+@import "bourbon/bourbon";
 @import "_mixins";
 body {
   padding: 0 0 20px 0;
@@ -234,22 +235,38 @@ section .credits.left {
 section .credits.right {
   float: right;
 }
-.float-centered {
-    float: right;
-    position: relative;
-    left: -50%;
-}
-.float-centered > :first-child {
-    left: 50%;
-    position: relative;
-}
-#embed_calendar {
-    float: left;
+#embed-calendar-week, #embed-calendar-agenda {
+    box-sizing: border-box;
     border: 10px solid #525252;
-    margin: auto;
+    height: 550px;
+    width: 100%;
+}
+#calendar-holder {
+    @include display(flex);
+    @include flex-direction(column);
+    @include align-items(center);
+    @include align-self(stretch);
+    max-width: 800px;
     margin-bottom: 20px;
 }
+#schedule {
+    @include display(flex);
+    @include flex-direction(column);
+    @include align-items(center);
+}
+.schedule-content {
+    max-width: 600px;
+    width: 100%;
+}
 
+@media print, screen and (max-width: 600px) {
+    #embed-calendar-week { display: none; }
+    #embed-calendar-agenda { display: block; }
+}
+@media print, screen and (min-width: 601px) {
+    #embed-calendar-week { display: block; }
+    #embed-calendar-agenda { display: none; }
+}
 @media print, screen and (max-width: 720px) {
   .credits {
     display: block;
@@ -279,3 +296,22 @@ section .credits.right {
     display: none;
   }
 }
+
+#semesters {
+    @include display(flex);
+    @include flex-direction(row);
+    @include flex-wrap(wrap);
+    @include align-items(center);
+}
+.semester {
+    display: block;
+    width: 48%;
+}
+@media print, screen and (max-width: 600px) {
+    #semesters {
+        @include display(flex);
+        @include flex-direction(column);
+        @include align-items(center);
+    }
+}
+
