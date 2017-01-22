@@ -1,4 +1,5 @@
 permalink: /blog/:categories/:title
+cs373: /cs373/blog/
 defaults:
     -
         scope:
@@ -21,6 +22,16 @@ defaults:
                 - title: Blog
                   ref: /blog/
                   color: '#ffeb3b'
+    -
+        scope:
+            path: "cs373"
+        values:
+            layout: sweblog
+            part1: 'What did you do this past week?'
+            part2: "What's in your way?"
+            part3: 'What will you do next week?'
+            part4: 'Class experience'
+            part5: 'Tip of the week'
 
 sass:
     style: compressed

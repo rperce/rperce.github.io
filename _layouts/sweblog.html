@@ -5,14 +5,15 @@
     {% include base_html_head.html %}
     <body>
         {% include header.html %}
-        <div class="wrapper"><section>
-            <div id="title">
-                <h1>{{ page.h1 }}</h1>
+        <div class='wrapper'><section>
+            <div id='title'>
+                <h1>Week {{ page.week }}: {{ page.title }}</h1>
+                <h3>CS373 Spring 2017: Robert Perce</h3>
                 <hr />
             </div>
+            <img src="/images/headshot_small.jpg" id='headshot' />
             {{ content }}
             {% include base_html_credits.html %}
         </section></div>
-        <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     </body>
 </html>

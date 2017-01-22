@@ -1,0 +1,24 @@
+---
+title: 'CS373 Spring 2017: Robert Perce'
+h1: 'CS373 Spring 2017: Robert Perce'
+---
+For CS373: Software Engineering at UT Austin, we're keeping a weekly blog talking about
+our experiences in the class and working as an introduction into the weekly Agile
+questions:
+
+1. What did you do the past week?
+2. What's blocking you?
+3. What do you have planned for next week?
+
+In addition, we're including some course impressions and helpful tips.
+
+<ul>
+    {% for post in site.posts %}
+    {% if post.categories contains 'cs373' %}
+        <li>
+            <a href="{{ post.url }}">Week {{ post.week }}: {{ post.title }}</a>
+            {{ post.excerpt | remove: "tl;dr: "}}
+        </li>
+    {% endif %}
+    {% endfor %}
+</ul>
