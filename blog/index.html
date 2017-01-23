@@ -5,11 +5,12 @@ h1: Blog
 ---
 <ul>
     {% for post in site.posts %}
-    {% if post.categories == empty %}
     <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
         {{ post.excerpt }}
+        {% if post.categories == empty %}
+        EMPTY
+        {% endif %}
     </li>
-    {% endif %}
     {% endfor %}
 </ul>

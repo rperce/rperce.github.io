@@ -1,5 +1,4 @@
 permalink: /blog/:categories/:title
-cs373: /cs373/blog/
 defaults:
     -
         scope:
