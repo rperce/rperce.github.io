@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+        <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <title>Getting Started</title>
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="/css/pygment_trac.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="/javascripts/respond.js"></script>
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <!--[if lt IE 8]>
+            <link rel="stylesheet" href="stylesheets/ie.css">
+        <![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    </head>
+
+
+    <body>
+        <div id="header" 
+    
+    
+    
+    
+    ><nav>
+    
+    <li>
+        <a href="/"
+            
+        >Home</a>
+    </li>
+    
+    <li>
+        <a href="/resume/"
+            
+        >Resume</a>
+    </li>
+    
+    <li>
+        <a href="/schedule/"
+            
+        >Schedule</a>
+    </li>
+    
+    <li>
+        <a href="/projects/"
+            
+        >Projects</a>
+    </li>
+    
+    <li>
+        <a href="/blog/"
+            
+        >Blog</a>
+    </li>
+    
+</nav></div>
+
+
+        <div class='wrapper'><section>
+            <div id='title'>
+                <h1>Week 1: Getting Started</h1>
+                <h3>CS373 Spring 2017: Robert Perce</h3>
+                <hr />
+            </div>
+            <img src="/images/headshot_small.jpg" id='headshot' />
+            <p>tl;dr: First impressions: this course seems pretty good! Everything’s go well so far, but
+it’s also too early to tell if that will continue to be the case. Looking forward to
+getting into some meaty projects. I expect the experience gained in this course to prove
+very useful in the real world!</p>
+
+<h3>
+    <a name="what-did-you-do-this-past-week" class="anchor" href="#what-did-you-do-this-past-week"><span class="octicon octicon-link"></span></a>
+    What did you do this past week?
+</h3>
+
+<p>This first week was dedicated to setup tasks. We hit an introduction to Python syntax,
+some of the tools we’ll be using, and the general format of the class. I got our textbooks
+and set up my personal website to host this blog. Outside of class, I got settled back
+into my apartment and got the ball rolling again on some of my side projects.</p>
+
+<h3>
+    <a name="what-s-in-your-way" class="anchor" href="#what-s-in-your-way"><span class="octicon octicon-link"></span></a>
+    What's in your way?
+</h3>
+
+<p>Nothing has yet caused me any problems. I got Docker spun up without any issues, I already
+had a GitHub education account, and my website is working. I don’t expect to have any
+major problems for a little while. I’m already quite familiar with git and have worked in
+Agile workflows in the past. This <em>is</em> my first time using Docker, but it’s gone well so
+far and there’s ample documentation online.</p>
+
+<h3>
+    <a name="what-will-you-do-next-week" class="anchor" href="#what-will-you-do-next-week"><span class="octicon octicon-link"></span></a>
+    What will you do next week?
+</h3>
+
+<p>Next week, we’ll be getting started on that first project. I’m excited to get settled into
+the general workflow for the class: I enjoy TDD. Python is not my first language of
+choice, but it also isn’t anywhere near my last, so I’ll be fine. If time permits, I’ll
+improve some formatting on my webpage and update older material.</p>
+
+<h3>
+    <a name="class-experience" class="anchor" href="#class-experience"><span class="octicon octicon-link"></span></a>
+    Class experience
+</h3>
+
+<p>During class, I’ve been taking notes not just on content but also on impressions. I’ve
+found this to actually improve my focus, so I wish I’d happened to have tried it sooner
+than my final semester. The first thing I noticed is the very strict attendance policy.
+There are daily quizzes in the first five minutes of each class; these comprise 15% of our
+final grade. Some number of these quiz scores will be dropped. Professor Downing uses the
+drops as the excuse to make no provisions for lateness or absence. I understand the desire
+for everyone to come to class, but it still seems harsh at first light. In time, perhaps
+there will be plentiful enough drops that it proves to be a non-issue; time will tell.</p>
+
+<p>Moving on, my impressions of Professor Downing as a person and teacher have been good. His
+website is very well put-together, which is more rare than you might think in the CS
+department. His course materials are all available on GitHub, which is awesome. He has a
+very interesting conversational style of lecture: he’ll select one person at a time to…
+talk to. He’ll have them walk through a selection of code, or describe its effects, or ask
+questions. This approach seems to keep discussion moving faster than addressing the whole
+class.</p>
+
+<h3>
+    <a name="tip-of-the-week" class="anchor" href="#tip-of-the-week"><span class="octicon octicon-link"></span></a>
+    Tip of the week
+</h3>
+
+<p>I’ve seen on Piazza that many students are using GitHub Pages (which works great—it’s what
+I use!) at .github.io domains. I want to talk this week about setting up your own domain,
+and some related tools I use.</p>
+
+<p>Let me point out that GitHub does <em>not</em> support HTTPS for GitHub Pages sites served from a
+custom domain. A cursory inspection indicates that Git<em>Lab</em> Pages do support custom-domain
+HTTPS. If that looks like it’ll work, I’ll switch over and post about that later.</p>
+
+<p>GitHub themselves have a <a href="https://help.github.com/articles/quick-start-setting-up-a-custom-domain/">great
+resource</a> about
+their specific platform, so I won’t go into that in detail. To set up the custom domain
+itself, I use a few things:</p>
+
+<ul>
+  <li><a href="https://www.namecheap.com/">Namecheap</a> is the best domain purchasing site I’ve yet
+found. Consistently cheaper than most alternatives, and not at all hard to use.</li>
+  <li>Their DNS, however, I have found sub-par. Instead, my DNS is hosted with
+<a href="https://www.cloudflare.com/">Cloudflare</a>.</li>
+  <li>I use <a href="https://www.fastmail.com">Fastmail</a>, a paid service, to host my personal mail.
+Their web interface is super-fast—a hell of a lot faster than Google’s new(ish)
+Inbox—and supports keyboard shortcuts, an absolute must for me. They have a solid <a href="https://www.fastmail.com/help/receive/domains.html?u=51704158">setup
+guide</a> and very helpful
+customer support.</li>
+</ul>
+
+<p>These tools are applicable to use with any reasonable blog hosting service, but ones that
+<em>aren’t</em> GitHub Pages might charge you money to do so, whereas GitHub Pages is free. Feel
+free to ping me at <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#114;&#112;&#101;&#114;&#099;&#101;&#046;&#110;&#101;&#116;">&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#114;&#112;&#101;&#114;&#099;&#101;&#046;&#110;&#101;&#116;</a> if you’ve got any questions about my setup!</p>
+
+
+            <hr />
+<span class="credits left">
+    rperce on <a href="http://github.com/rperce/">github</a>
+</span>
+<span class="credits right">
+    Hosted on GitHub Pages &mdash; Theme originally by
+<a href="https://twitter.com/michigangraham">mattgraham</a>
+</span>
+
+        </section></div>
+    </body>
+</html>
