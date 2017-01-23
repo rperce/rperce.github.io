@@ -2,9 +2,7 @@
 title: Testing
 ---
 
-This is an automated test of the Jekyll blog system. Please do not be alarmed.
-
-Its also manual, but you should probably ignore that.
+This is a test of the Jekyll blog system. Please do not be alarmed.
 
 Srsly. No biggie.
 
