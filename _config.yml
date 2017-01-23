@@ -36,3 +36,5 @@ sass:
     style: compressed
     sass-dir: _sass
 
+future: true
+encoding: UTF-8
